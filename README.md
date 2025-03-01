@@ -39,24 +39,29 @@ Features found That Reduce Churn Probability:
 - Dependents_Yes and Partner_Yes: Customers with dependents or a partner are less likely to churn.
 - Tech Support_Yes and Online Security_Yes: These services improve customer retention, reducing churn probability.
 
-Classification Report for Logistic Regression:
-Value 0 (No Churn):
+Classification Report:
+
+No Churn:
 - Precision = 95% - When the model predicted No Churn, it was correct 95% of the time.
 - Recall    = 94% of the No Churn cases were correctly identified.
-Value 1 (Churn):
+  
+Churn:
 - Precision = 83% - When the model predicted Churn, it was correct 83% of the time.
 - Recall    = 86% of the Churn cases were correctly identified.
+
 Overall Accuracy: 92% - The model correctly classified 92% of the cases.
 
 ### Model 2 - SVM (Support Vector Machines) + GridSearchCV
 We also implemented an SVM model with GridSearchCV for hyperparameter tuning.
 
 Classification Report for SVM:
-Value 0 (No Churn):
+
+No Churn:
 - Precision = 95% - When the model predicted No Churn, it was correct 95% of the time.
 - Recall = 95% - 95% of the No Churn cases were correctly identified.
-Value 1 (Churn):
+  
+Churn:
 - Precision = 88% - When the model predicted Churn, it was correct 88% of the time.
 - Recall = 86% - 86% of the Churn cases were correctly identified.
-Overall Model Performance:
-- Accuracy = 93% - The model correctly classified 93% of the total cases.
+
+Overall Accuracy: 93% - The model correctly classified 93% of the total cases.

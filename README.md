@@ -52,9 +52,9 @@ Churn:
 Overall Accuracy: 92% - The model correctly classified 92% of the cases.
 
 ### Model 2 - SVM (Support Vector Machines) + GridSearchCV
-We also implemented an SVM model with GridSearchCV for hyperparameter tuning.
+We also implemented an SVM model with GridSearchCV for hyperparameter tuning and found Linear model was the best Fit.
 
-Classification Report for SVM:
+Classification Report for best fit model (Linear):
 
 No Churn:
 - Precision = 95% - When the model predicted No Churn, it was correct 95% of the time.

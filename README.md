@@ -83,7 +83,7 @@ This was chosen to be our final model due to the high accuracy.
 
 ### Final Model Selected Features
 
-The method of feature importance was used to find the non-linear relationships between features in the modleand ranks them on how important they are to the target of the model.
+The method of feature importance was used to find the non-linear relationships between features in the modle and ranks them on how important they are to the target of the model.
 
 ![Feature scores](https://github.com/user-attachments/assets/ae08cf23-f897-494b-a5c7-38c222e00949)
 

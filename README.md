@@ -85,7 +85,7 @@ This was chosen to be our final model due to the high accuracy.
 
 The method of feature importance was used to find the non-linear relationships between features in the modleand ranks them on how important they are to the target of the model.
 
-< image >
+![Feature scores](https://github.com/user-attachments/assets/ae08cf23-f897-494b-a5c7-38c222e00949)
 
 Several features were dropped based on their importance to the model. While not applicable to this dataset due to its small size, removing irrelevant features to increase the efficiency of a model can be an effective method of maintaining accuracy while reducing computing time. Using an efficient number of decision trees without sacrificing training speed would also need to be considered when weighing the model accuracy vs efficiency.
 

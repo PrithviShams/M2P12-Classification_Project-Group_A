@@ -65,3 +65,45 @@ Churn:
 - Recall = 86% - 86% of the Churn cases were correctly identified.
 
 Overall Accuracy: 93% - The model correctly classified 93% of the total cases.
+
+### Model 3 - Random Forest Classification with Cross Validation
+For this Random Forest Classification Model, the test size was decided was decided based on trial and error using cross validation to find the highest accuracy score of the specific models. The number of decision trees then needed to be chosen. Due to this being a smaller dataset, it was possible to iterate over a number of different decision trees to compare cross validation score with a focus on the Mean Accuracy. It appeared that 400 decision trees produce the best results with 150 almost identical. Anything over 400 was outputting very similar results with the cost of higher computing time.
+
+No Churn:
+- Precision = 97% of the time when the model predicted No Churn, it was correct.
+- Recall    = 97% of the No Churn cases were correctly identified.
+
+Churn
+- Precision = 93% of the time when the model predicted Churn, it was correct.
+- Recall    = 91% of the Churn cases were correctly identified.
+
+Model accuracy score with 400 decision-trees : 95.53%
+
+This was chosen to be our final model due to the high accuracy.
+
+### Final Model Selected Features
+
+The method of feature importance was used to find the non-linear relationships between features in the modleand ranks them on how important they are to the target of the model.
+
+< image >
+
+Several features were dropped based on their importance to the model. While not applicable to this dataset due to its small size, removing irrelevant features to increase the efficiency of a model can be an effective method of maintaining accuracy while reducing computing time. Using an efficient number of decision trees without sacrificing training speed would also need to be considered when weighing the model accuracy vs efficiency.
+
+Model accuracy score with 400 decision-trees and Selected Features : 95.21%
+
+### Final Model with Simulated Inputs
+
+The model is still accurate but this is only based on the semi-random simulated data that was created.
+
+Model accuracy score with 400 decision-trees and simulated imputs : 94.00%
+
+
+
+
+
+
+
+
+
+
+

@@ -97,6 +97,10 @@ The model is still accurate but this is only based on the semi-random simulated 
 
 Model accuracy score with 400 decision-trees and simulated imputs : 94.00%
 
+## Conclusion
+
+All of our models performed well with Random Forest standing out as the star performer. This validates our assumptions in the EDA phase, though we could potentially include additional features like billing method to verify whether our assumption about this feature held up or not. The model was trained on a dataset of a single State of a single country. It would be interesting to include data from different states and countries having the same demographic parameters and explore if churn behvavior varies with the country. The model can be further improved by including more features and allowing for additional processing time to allow more complicated models to run.
+
 
 
 
